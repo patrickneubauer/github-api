@@ -581,7 +581,7 @@ class Requester {
     }
 
     private <T> T parse(Class<T> type, T instance) throws IOException {
-        return parse(type, instance, 2);
+        return parse(type, instance, 20);
     }
 
     private <T> T parse(Class<T> type, T instance, int timeouts) throws IOException {
